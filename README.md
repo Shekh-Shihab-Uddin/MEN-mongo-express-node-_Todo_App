@@ -1,5 +1,6 @@
 #It is a basic Todo Application using MongoDB(mongoose Library), NodeJs(ExpressJs framework)
-Performed the basic CRUD operation of MongoDB using nodeJs.
+
+- Performed the basic CRUD operation of MongoDB using nodeJs.
 Here you can - 
 ** Add your todo,
 ** See your todo,
