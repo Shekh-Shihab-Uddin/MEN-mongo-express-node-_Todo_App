@@ -24,23 +24,4 @@ const todoSchema= mongoose.Schema({
     }
 });
 
-// //instance methods
-// todoSchema.methods = {
-//     findActive: function(){
-//         return mongoose.model("Todo").find({status:"active"});
-//     },
-// //this does not work because, Model.find() no longer accepts a callback at Function
-//     findActiveCallback: function(cb){
-//         return mongoose.model("Todo").find({status:"active"},cb);
-//     },
-// };
-
-
-// //static methods
-// todoSchema.static = {
-//     findByJs: function(){
-//         return this.find({title: /js/i });
-//     }
-// }
-
 module.exports = todoSchema;
